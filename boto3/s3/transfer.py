@@ -167,7 +167,7 @@ class TransferConfig(S3TransferConfig):
 
     def __init__(
         self,
-        multipart_threshold=8 * MB,
+        multipart_threshold=999 * MB,
         max_concurrency=10,
         multipart_chunksize=8 * MB,
         num_download_attempts=5,
